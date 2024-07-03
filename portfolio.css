@@ -1,0 +1,304 @@
+.countdown{
+    width:100%;
+    height:100%;
+}
+
+.title,
+.film-strip-container{
+    display:block;
+}
+
+.goals,
+.highSchool,
+.adultLife{
+    text-align:center;
+}
+
+.FTVParagraph,
+.marchingBandParagraph,
+.enviroParagraph,
+.SHHParagraph,
+.laxParagraph,
+.chicagosParagraph,
+.nextechParagraph{
+    text-align:center;
+}
+
+.projectTag{
+    text-align:center;
+}
+
+.luddy{
+    width:150px;
+    height:150px;
+}
+
+.laxCollege{
+    width:150px;
+    height:150px;
+}
+
+.email{
+    background-image: url(https://static.thenounproject.com/png/1287389-200.png);
+    height:150px;
+    width:150px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    
+}
+
+.linkedin{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png);
+    height:150px;
+    width:150px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.letterboxd{
+    background-image:url(https://a.ltrbxd.com/logos/letterboxd-mac-icon.png);
+    height:150px;
+    width:150px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.unit4{
+    width:45%;
+    height:50%;
+    background: white;
+    border: 4px solid black;
+    box-shadow: inset 0 0 0 1px #ccc;
+    justify-content: center;
+    align-items: center;
+    margin-right:10px;
+    margin-left:10px;
+    cursor: pointer;
+}
+
+.unit3{
+    width:45%;
+    height:50%;
+    background: white;
+    border: 4px solid black;
+    box-shadow: inset 0 0 0 1px #ccc;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.unit2{
+    width:45%;
+    height:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    border: 4px solid black;
+    box-shadow: inset 0 0 0 1px #ccc;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.aboutMePage{
+    display:none;
+}
+.projectsPage{
+    display:none;
+}
+.aspirationsPage{
+    display:none;
+}
+.contactPage{
+    display:none;
+}
+
+.title{
+    text-align:center;
+}
+body {
+    display: block;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.film-strip-container {
+    width: 100vw;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+}
+.film-strip {
+    width: 200vw; 
+    height: 200px;
+    background: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    animation: moveFilmStrip 60s linear infinite;
+}
+@keyframes moveFilmStrip {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100vw); }
+}
+.film-strip:before,
+.film-strip:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: black;
+}
+.film-strip:before {
+    left: 0;
+}
+.film-strip:after {
+    right: 0;
+}
+.film-strip .frame {
+    width: 20%;
+    height: 80%;
+    background: white;
+    border: 4px solid black;
+    box-shadow: inset 0 0 0 1px #ccc;
+    margin: 0 1%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ftvPicture{
+    width:40%;
+    height:50%;
+    border: 4px solid black;
+    box-shadow: inset 0 0 0 1px #ccc;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.marchingBandPicture,
+.marchingBandPictureTwo{
+    width:45%;
+    height:20%;
+    border: 4px solid black;
+    box-shadow: inset 0 0 0 1px #ccc;
+    margin-right:10px;
+}
+
+.ftvPictureTwo{
+    width:50%;
+    height:35%;
+    border: 4px solid black;
+    box-shadow: inset 0 0 0 1px #ccc;
+
+}
+
+.enviroPicture,
+.enviroPictureTwo{
+    width:45%;
+    height:50%;
+    border: 4px solid black;
+    box-shadow: inset 0 0 0 1px #ccc;
+}
+.shhPic{
+    width:40%;
+    border: 4px solid black;
+    box-shadow: inset 0 0 0 1px #ccc;
+}
+.shhPicTwo{
+    width:40%;
+    border: 4px solid black;
+    box-shadow: inset 0 0 0 1px #ccc;
+}
+.laxPic,
+.laxPicTwo{
+    width:40%;
+    border: 4px solid black;
+    box-shadow: inset 0 0 0 1px #ccc;
+}
+
+.chicagosPic{
+    width:40%;
+    height:40%;
+    border: 4px solid black;
+    box-shadow: inset 0 0 0 1px #ccc;
+}
+.chicagosPicTwo{
+    width:40%;
+    border: 4px solid black;
+    box-shadow: inset 0 0 0 1px #ccc;
+
+}
+
+.aboutButton,
+.projectsButton,
+.aspirationsButton,
+.contactButton{
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+    border: 1px solid black;
+    border-radius: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.holes {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    padding: 0 30px;
+}
+
+.holes.top {
+    top: 10px;
+}
+
+.holes.bottom {
+    bottom: 10px;
+}
+
+.hole {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+}
+
+.outsideActivities,
+.FTVPage,
+.marchingBandPage,
+.enviroPage,
+.SHHPage,
+.laxPage,
+.chicagosPage,
+.nextechPage{
+    display:none;
+}
+
+.nextechPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+    background: white;
+    border: 4px solid black;
+    box-shadow: inset 0 0 0 1px #ccc;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
